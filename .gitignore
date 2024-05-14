@@ -1,0 +1,59 @@
+# Ignorar arquivos de ambiente virtual
+venv/
+.env/
+
+# Ignorar arquivos de configuração de ambiente
+.env
+
+# Ignorar bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignorar testes de saída de cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignorar arquivos PyInstaller
+*.manifest
+*.spec
+
+# Ignorar profiler de saída
+.prof
+
+# Ignorar mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignorar Pyre
+.pyre/

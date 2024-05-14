@@ -8,7 +8,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 FILE_PATH = Path(__file__).parent
-SETTINGS_PATH = FILE_PATH / 'settings.json'
+SETTINGS_PATH = FILE_PATH / 'config.json'
 
 with open(SETTINGS_PATH, 'r') as file:
     settings = json.load(file)
